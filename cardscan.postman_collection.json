@@ -1,0 +1,226 @@
+{
+	"info": {
+		"_postman_id": "45b1c0e9-0dbf-40d3-8094-e606bdee28d0",
+		"name": "cardscan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10218772",
+		"_collection_link": "https://martian-capsule-539259.postman.co/workspace/Zeitblast~4a83a1b1-c9ce-42a2-8496-e5ba2f02d145/collection/10218772-45b1c0e9-0dbf-40d3-8094-e606bdee28d0?action=share&source=collection_link&creator=10218772"
+	},
+	"item": [
+		{
+			"name": "update product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					},
+					{
+						"key": "cookie",
+						"value": "localization=IN; cart_currency=INR; _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D; _tracking_consent=%7B%22con%22%3A%7B%22CMP%22%3A%7B%22m%22%3A%22%22%2C%22a%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22reg%22%3A%22%22%2C%22region%22%3A%22INMP%22%7D; _shopify_y=d6389393-56fd-44a6-88d0-f468dca6cfa8; _orig_referrer=; _landing_page=%2F; receive-cookie-deprecation=1; _gcl_au=1.1.530769003.1713330878; _gid=GA1.2.1929981800.1713330878; _clck=lhvcmy%7C2%7Cfl0%7C0%7C1568; _fbp=fb.1.1713330879146.560408930; _pin_unauth=dWlkPVl6QmlNemcxTnprdFl6bGlOQzAwWkdGa0xUa3lPR010TjJJMllXVmxPVFUyTkRJNA; _ju_dm=cookie; _ju_dn=1; _ju_dc=65b0badf-fc79-11ee-809f-cddc67a93b94; _shopify_sa_p=; shopify_pay_redirect=pending; _ju_v=4.1_6.05; _scid=73c11661-7eaf-414a-9aa9-23a6eecddaa1; snize-recommendation=hrcezsozf9n; fpestid=6UEV-1pFvBbc0LqgYDAtADH0D9Binj_55ERwP1wK7QRWBhDo2Pvz2fnV-ldjhtXdZY5XrA; locale_bar_accepted=1; _sctr=1%7C1713292200000; _cc_id=801c07b416b54722975788c2388a2544; panoramaId_expiry=1713951287702; panoramaId=3abd4ff1a0e3b2174ea9d9c2996e16d53938d6b57dc4f0da96e6ce2453476ed0; panoramaIdType=panoIndiv; _shopify_essential=:AY7rarIwAAH_7TOhSsh7eR9ceUaZH-3RcXWRMTQUBI_Wfpl5gIhtTIJVifpuH2XFfR2jwsbt132dHtR73jH2wphhnq9lJMDdeQ==:; _secure_session_id=01HVNPNCJC470TJWA5YDC9W454; secure_customer_sig=d426f1be6457506508d3d274e2847a10; cart=Z2NwLXVzLWVhc3QxOjAxSFZOUFRDNjdKMjY1NU1CUTRYUjg2MFhS; cart_ts=1713346987; cart_sig=986f6efe666f9db3f40b7cde6cca574d; _shopify_s=db9bc215-5467-4a21-a687-187b4aac3bca; _shopify_sa_t=2024-04-17T09%3A44%3A14.688Z; _ga=GA1.1.1613286544.1713330878; __kla_id=eyJjaWQiOiJNakUyTURkbU9Ua3RPREppWVMwME16UTNMVGt3Tm1NdE5tSXpOamM0TlRsa1l6WXoiLCIkcmVmZXJyZXIiOnsidHMiOjE3MTMzMzA4ODEsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3Lmx1bGFsdS5jb20vIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzEzMzQ3MDU1LCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5sdWxhbHUuY29tLyJ9fQ==; _uetsid=63a99ec0fc7911ee8a9ebd7ce7212c5b; _uetvid=63a9d120fc7911ee8ddb63f4bed711e0; _ga_J49VETL3FD=GS1.1.1713346465.2.1.1713347055.0.0.0; _clsk=fswl5o%7C1713347055770%7C17%7C1%7Cb.clarity.ms%2Fcollect; _ju_pn=17; _ga_V09JMSJY0W=GS1.1.1713346464.2.1.1713347063.50.0.224556191; _scid_r=73c11661-7eaf-414a-9aa9-23a6eecddaa1; keep_alive=5000fb4e-443a-4047-aad8-6f7e0f2306b1"
+					},
+					{
+						"key": "origin",
+						"value": "https://www.lulalu.com"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.lulalu.com/collections/bras"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "updates[39494604161137]=2"
+				},
+				"url": {
+					"raw": "https://www.lulalu.com/cart/update.js",
+					"protocol": "https",
+					"host": [
+						"www",
+						"lulalu",
+						"com"
+					],
+					"path": [
+						"cart",
+						"update.js"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "cookie",
+						"value": "localization=IN; cart_currency=INR; _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D; _tracking_consent=%7B%22con%22%3A%7B%22CMP%22%3A%7B%22m%22%3A%22%22%2C%22a%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%2C%22reg%22%3A%22%22%2C%22region%22%3A%22INMP%22%7D; _shopify_y=d6389393-56fd-44a6-88d0-f468dca6cfa8; _orig_referrer=; _landing_page=%2F; receive-cookie-deprecation=1; _gcl_au=1.1.530769003.1713330878; _gid=GA1.2.1929981800.1713330878; _clck=lhvcmy%7C2%7Cfl0%7C0%7C1568; _fbp=fb.1.1713330879146.560408930; _pin_unauth=dWlkPVl6QmlNemcxTnprdFl6bGlOQzAwWkdGa0xUa3lPR010TjJJMllXVmxPVFUyTkRJNA; _ju_dm=cookie; _ju_dn=1; _ju_dc=65b0badf-fc79-11ee-809f-cddc67a93b94; _shopify_sa_p=; _scid=73c11661-7eaf-414a-9aa9-23a6eecddaa1; snize-recommendation=hrcezsozf9n; fpestid=6UEV-1pFvBbc0LqgYDAtADH0D9Binj_55ERwP1wK7QRWBhDo2Pvz2fnV-ldjhtXdZY5XrA; locale_bar_accepted=1; _sctr=1%7C1713292200000; _cc_id=801c07b416b54722975788c2388a2544; panoramaId_expiry=1713951287702; panoramaId=3abd4ff1a0e3b2174ea9d9c2996e16d53938d6b57dc4f0da96e6ce2453476ed0; panoramaIdType=panoIndiv; cart=Z2NwLXVzLWVhc3QxOjAxSFZOUFRDNjdKMjY1NU1CUTRYUjg2MFhS; secure_customer_sig=; cart_sig=3143d80f61ebbc21d9e1d802f03a8eed; shopify_pay_redirect=pending; _shopify_essential=:AY7rtvWgAAH_1vU8cc2tiDKY0Y87LubvOv4ApFUu_LcrhJRrZvMHdVJ_fWqK_ViyK8dyXlspRbYADQ37O8vpup_2d4E3RZJQfw==:; _secure_session_id=01HVNVDY6PFWJC1X77X6NDK9TY; cart_ts=1713351620; _shopify_s=db9bc215-5467-4a21-a687-187b4aac3bca; _shopify_sa_t=2024-04-17T11%3A08%3A19.157Z; __kla_id=eyJjaWQiOiJNakUyTURkbU9Ua3RPREppWVMwME16UTNMVGt3Tm1NdE5tSXpOamM0TlRsa1l6WXoiLCIkcmVmZXJyZXIiOnsidHMiOjE3MTMzMzA4ODEsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3Lmx1bGFsdS5jb20vIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzEzMzUyMDk5LCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5sdWxhbHUuY29tLyJ9fQ==; _gat=1; _gat_UA-225878-1=1; _uetsid=63a99ec0fc7911ee8a9ebd7ce7212c5b; _uetvid=63a9d120fc7911ee8ddb63f4bed711e0; _ga=GA1.1.1613286544.1713330878; _ju_v=4.1_6.05; _clsk=fswl5o%7C1713352100175%7C75%7C1%7Cb.clarity.ms%2Fcollect; _ga_J49VETL3FD=GS1.1.1713346465.2.1.1713352100.0.0.0; _ju_pn=72; _scid_r=73c11661-7eaf-414a-9aa9-23a6eecddaa1; keep_alive=54991806-5d8b-4d5e-b0cd-a8eb60884fb2; _ga_V09JMSJY0W=GS1.1.1713346464.2.1.1713352133.24.0.224556191"
+					},
+					{
+						"key": "origin",
+						"value": "https://www.lulalu.com"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.lulalu.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "form_type",
+							"value": "customer_login",
+							"type": "text"
+						},
+						{
+							"key": "utf8",
+							"value": "✓",
+							"type": "text"
+						},
+						{
+							"key": "customer[email]",
+							"value": "amara2@getnada.com",
+							"type": "text"
+						},
+						{
+							"key": "customer[password]",
+							"value": "Test@1234",
+							"type": "text"
+						},
+						{
+							"key": "login_with_shop[analytics_trace_id]",
+							"value": "4bda41f5-46e2-4f39-848c-313230c1056c",
+							"type": "text"
+						},
+						{
+							"key": "recaptcha-v3-token",
+							"value": "03AFcWeA6TH8gFIwiq6K9Vj3nnsxGMRhTnROHbtjH28qew-LymNdLQq3Bgf9JNJZpkt4O3qTYh7jiIe6JdlG-1P5R-FeGuZSoBGomFv-lw4IsMfPJXweaZS3SOoOdwT33YIrzCTr4WaZX88RSeIEbmi9EGmQ4lD50hMG_1SApkzFtA_Z1eHiJN3IsVfl-puUjKEsOHPmTjPBshXLr-c5A9LfDgQUo62HQqI8oc2LgXgAlN-NHus-z8NN7iRp8FWxuzQEFlSlXPh1lmBT9eRGX3fzrK_IenCY2Ji4DPp_Mwp77zUipNJP2w0vvWergDLs7VMnKQuzsWSXsJQf4MpLGw83YMLYbbwI1GYmRkcfalzVD12bHR45Y7R47rpTQSxijiey3w7XixYzYMYLMfWosvim9w2e4NCMbzT32UswaIxqzO54GkmuNGM0IV6DMoSM2gsy6V0c3syt5LKffk6dN--7XZO_Uz-rkPs6GGcdsz_gUUTWvAsDUkNOdiXww7AjVQCLURLP7D8rd5N2H6NzyFqYpG3upx89BROCAgYyOgrYbnUd6a65hFpkfwiP8WuGEMZY5LyUJjA7fTJbjcXOM3hiSY5qLuzsYsEWpc_HTuKwfcDAngYvO5FD5bjZQjRss1in0DeZorxqnc61NC_SJVufbrV9ZBVkGRA-vjOFk4MNS9VbT4CCbu-KRpV2skAM4TWUanUpo5idZ1e1KilvJzW4Emh6-voWb26y-EAud25Mx5vO2wn68yNIBkrCZjkPZkSLPvDedP0WqbY_gIti45-0OAztYnUr_nIJo8t2aUvzgL4JxHxlHpAMyIyYhy_GMDuehpqeb-NWUG-ej92S1tolorFH89BY7SluCMKLbIPqo95YLlqYlJNPDdgUCmKMQFgMI1_S3x9hlcN0cu_ldBu7Yg4cQJpwgLH1M8iXfvW-0euxIB8XA1kYC-3bnTbkcWmdS5IDFGf4uuOFXH9rVyGLVfhSYDSNA5NMzMVbzZLSbpesupZ0cV3hrgGKoEO3A2IRPsCmDiwYvfKxhtO1uF5s9vFhNCQDxcshlR3xwlizLiBK3d92rE7TvV5n2mlcVIY_F2N234NjqVeX_8zIqUwnPrThnDwWksJuw0dRtvaMDkmlzI_cKyVmL0DfWlVMCZ8_EncQ9-563DyGUcQFjihxfdzhF3rqAI2X-fPzXGbT_0fCvhTtztjGiVE6Hp69QqvFavUgMi0lKDE2fyEi9EUOtbXB7wiKVLN3tvF_fAhjaVxVsvEe4slDJ3SEjp2XLvq_ZuwfDsB3NhSzzKlnVy31Qu_RnXWpFEfdOcSojPxbEYGThFvXoOp8lVDgy61G0ypadVUeZCyZyF1zY8ceoPIW7cp4Nb89qaZhahnkamG8Kg9RvO2z9Fvu6WpxZrMj12JbQX8KIhV97K6x8G1LhDAk3wIyT6PjHuXpH0IT2CgpG8X8__0dFX7GwIj7YtxNVOC24JJeRGuTnvJPwGS01ItS956BeVjcbIOeCm6kvJYVIxA3MfGz_twnhZpD5EpdNrzHbhaOW2OaGOanXaswukj4-NgCFlMgubLgA6fVGBF1LBWrxxJPw71PP5N9osaZs0bz5Km3tTprFMX6YGJcIS80Y_hkP4FFYJEVMkhE4o7YnmR3LGcDh8noi0AS17IC6hfUYIFiWLcXCSMIIHrkQ68XMyO3FsrJhvtlpkM6EF2eR4CjO8Ypay36TzBnm2ngWVmdMA3hDlKbVWFrIPy35IxLAX_pVeNFOuzk62sQaTqQYkJudis9Z7bnN-SkyVBltbyRNmof5uH4H0Smoc0ehC9ctkZis8RdOQd7C6ZQWzzfx0xeJtRFNc3GLJrHGImwFIT4VD0807zqPmezhusg5_B2Dew2U3nUDMUbAuCBbEAAc_L3se7X-HW1BMOffHXWQCdijbfJ9G4dC6GseRtiMh2Qt0V4tkYeYCUM0Wt_g2ZjObDD-SBFFQh7SaI-V2-GSZ65YSCcoDtGdfSt_fl4wb9cfMFi2n6XmsT7vmI-jxoRuOSUZ6znLtc9BmJfJyWqpxOC2Kb3qgRVToYi4mmDMIdYD_1oKBaLrv4swQ-WnODSYEDKIUwDM072EJZCNo_LwzopT4wHbM3-Gb",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.lulalu.com/account/login",
+					"protocol": "https",
+					"host": [
+						"www",
+						"lulalu",
+						"com"
+					],
+					"path": [
+						"account",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
